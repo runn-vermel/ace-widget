@@ -117,6 +117,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     attached: function () {
       // console.debug("[ace-widget] attached")
       this.initializeEditor();
+      this.fire('editor-attached');
     },
 
     initializeEditor: function () {
